@@ -42,7 +42,7 @@ app.post("/api/email", async (req, res) => {
   await transporter.sendMail(
     {
       from: `at.yeoubi2@gmail.com`, // sender address
-      to: "contact@atyeoubi.com", // list of receivers
+      to: "123chaydigacon@gmail.com", // list of receivers
       subject: `[YEOUBI] - Message from ${name} ✔`, // Subject line
       html: `<p><b>Name: </b>${name}</p>
       <p><b>Title: </b>${title}</p>
