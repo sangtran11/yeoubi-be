@@ -51,6 +51,7 @@ app.post("/api/email", async (req, res) => {
       <p><b>Other Contact Method: </b>${otherContactMethod}</p>
       <p><b>Language: </b>${language}</p>
       <p><b>Purpose: </b>${purpose}</p>
+      <p><b>Quantity: </b>${quantity}</p>
       <p><b>Packaging: </b>${packaging}</p>
       <p><b>When: </b>${when}</p>
       <p><b>Where: </b>${where}</p>
